@@ -1,0 +1,64 @@
+body {
+
+}
+
+.container-one {
+ box-sizing: border-box;
+ border: 3px solid black;
+ width: 100%;
+ padding: 25px;
+}
+
+.rectangle-one {
+  background-color: rgb(171, 1, 1);
+  display: inline-block;
+  height: 150px ;
+  width: 50px;
+  margin-right: 50px;
+}
+
+.rectangle-two {
+background-color: royalblue;
+display: inline-block;
+height: 200px;
+width: 400px;
+margin-right: 50px;
+}
+
+.circle {
+background-color: salmon;
+display: inline-block; 
+border-radius: 50%;
+height: 200px;
+width: 150px;
+}
+
+.container-two {
+box-sizing: border-box;
+border: 3px dotted orangered;
+width: 100%;
+padding: 25px;
+margin-top: 25px;
+}
+
+.rectangle {
+background-color: goldenrod;
+height: 250px;
+margin: auto;
+box-shadow: 10px 10px 5px;
+}
+
+.container-three {
+margin-top: 25px;
+margin-inline: auto;
+border:  solid 1px gray;
+height: 200px;
+width: 300px;
+box-shadow: 5px 5px 2.5px rgb(171, 170, 170);
+}
+
+.container-three h1 {
+color: violet;
+text-align: center;
+vertical-align: middle;
+}
